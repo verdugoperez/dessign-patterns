@@ -68,7 +68,7 @@ public final class AddressViewController: UIViewController {
     }
     
     @IBAction public func updateAddressFromView(_ sender: AnyObject) {
-        // Example of how the view can tell the controller something has changed, and the model needs updating.
+        // Example of how the view can tell the controller something has changed, and the model needs updating
         guard let street = addresView.streetTextField.text, !street.isEmpty,
         let city = addresView.cityTextField.text, !city.isEmpty,
         let state = addresView.stateTextField.text, !state.isEmpty,
